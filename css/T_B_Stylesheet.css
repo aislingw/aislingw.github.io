@@ -1,0 +1,159 @@
+* {
+  box-sizing:  border-box;
+}
+body {
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0px;
+  background-image: linear-gradient(to bottom right, #77dd77, #03c03c);
+  height: auto;
+}
+p {
+  font-size: 20px;
+  border-style: solid;
+  box-shadow: 5px 10px 0px #028e2c;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 32px;
+  box-shadow: 5px 10px 0px #028e2c;
+  border-style: solid;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Spicy Rice', cursive;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+ul.menu li a {
+  text-decoration: none;
+  color: white;
+}
+ul.menu li a:hover {
+  color: #028e2c;
+  text-decoration: bold;
+  font-size: 18px;
+}
+ul.menu li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgba(255,255,255,1);
+  width: 33.3%;
+}
+ul.menu {
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgba(189, 236, 182, 0.5);
+    color: white;
+    height: 39px;
+    width: 340px;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 5px 10px 0px #028e2c;
+}
+div.Top {
+  width: 100%;
+  /* background-image: linear-gradient(to bottom right, #77dd77, #03c03c); */
+  color: white;
+  height: 225px;
+}
+ul {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+div.WhiteBox {
+  border-style: solid;
+  font-size: 12px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+div.WhiteBox p {
+  border-style: none;
+  font-size: 16px;
+  box-shadow: none;
+  text-align: left;
+  margin: 0;
+}
+
+
+
+/*   Poem1   -------------------------------------------------------------------------- */
+
+
+
+div.poem1 {
+  margin: 0px;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+div.poemtext1 {
+font-size: 30px;
+float: left;
+padding-left: 40px;
+}
+div.poemimg1 {
+  float: right;
+  height: 300px;
+  width: 500px;
+}
+div.poemimg1 img {
+  width: 100%;
+  height: 100%;
+  padding-right: 40px;
+}
+h3 {
+  font-size: 40px;
+  border-style: none;
+  font-family: sans-serif;
+}
+h2 {
+  border-style: none;
+  font-size: 20px;
+}
+p.1 {
+  font-size: 20px;
+  border-style: solid;
+  box-shadow: 5px 10px 0px #028e2c;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+/* Poem2 -------------------------------------------------------------------- */
+
+div.poem2 {
+  margin: 0px;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+div.poemtext2 {
+  margin-top: 200px;
+}
+div.poemtext2 p.p2 {
+  float: right;
+}
